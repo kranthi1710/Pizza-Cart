@@ -1,0 +1,12 @@
+.product{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+}
+
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,13 @@
+<p>Products</p>
+<div class="orders" *ngFor="let product of productsList">
+    <div class="product">
+            <p class="product-detail">{{product.id}}</p>
+            <p class="product-detail">{{product.title}}</p>
+            <p class="product-detail">{{product.price}}</p>
+            <span class="buttons">
+                    <button class="decrementItem" (click)="removeItem(product)">-</button>
+                    <button class="incrementItem" (click)="addItem(product)">+</button>
+            </span>
+            
+    </div>
+</div>
